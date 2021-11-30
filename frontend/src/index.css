@@ -144,4 +144,9 @@ img.medium {
   color: #f0c040;
   margin: 0.1rem;
 }
+
+.rating span:last-child{
+  color: #404040;
+  margin-left: 2rem
+}
 /*# sourceMappingURL=style.css.map */
