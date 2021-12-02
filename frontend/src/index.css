@@ -8,7 +8,7 @@ body {
   margin: 0;
   height: 100vh;
   font-size: 1.6rem;
-  font-family: Monospace, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -85,6 +85,24 @@ h2 {
           align-items: center;
 }
 
+.row.center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row.top {
+  align-items: flex-start;
+}
+
+.col-1{
+  flex: 1 1 25rem;
+}
+
+.col-2{
+  flex: 2 1 50rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -106,10 +124,43 @@ a.brand font {
   -weight: bold;
 }
 
-.row.center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+ul{
+  padding: 0 ;
+  margin: 0 0 0 3rem;
+  list-style-type: none;
+}
+
+li{
+  margin-top: 1rem;
+}
+
+button{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #a4a4a4 solid;
+  font-size: 1.6rem;
+  font-family: Monospace, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+button:hover{
+  border: 0.1rem #404040 solid;
+}
+
+button.primary{
+  background-color: #f0c040;
+}
+
+button.danger{
+  background-color: #eb8a86;
+  margin-bottom: 0.5rem;
+}
+
+button.block{
+  width: 100%;
 }
 
 img {
@@ -119,6 +170,12 @@ img {
 img.medium {
   height: 29rem;
   width: 29rem;
+}
+
+img.large {
+  width: 100%;
+  height: 100%;
+  background: red;
 }
 
 .card {
@@ -148,5 +205,13 @@ img.medium {
 .rating span:last-child{
   color: #404040;
   margin-left: 1rem
+}
+
+/* Alert */
+.success{
+  color: #20a020;
+}
+.error{
+  color: #a02020;
 }
 /*# sourceMappingURL=style.css.map */

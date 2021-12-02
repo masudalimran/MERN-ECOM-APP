@@ -1,0 +1,31 @@
+{
+  "name": "famazon-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "e-commerce web replica of amazon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masudalimran/MERN-ECOM-APP.git"
+  },
+  "keywords": [
+    "famazon",
+    "e-commerce"
+  ],
+  "author": "Masud Al Imran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masudalimran/MERN-ECOM-APP/issues"
+  },
+  "homepage": "https://github.com/masudalimran/MERN-ECOM-APP#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
